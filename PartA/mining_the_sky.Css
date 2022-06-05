@@ -1,0 +1,234 @@
+
+* {
+  margin: 0;
+ 
+}
+
+img{
+
+	width:100%;
+	height: 350px;	
+ 	object-fit: cover;
+ 	display: block;
+ 	margin: 0;
+  padding: 0;
+
+
+
+
+}
+.container {
+	display: block;
+	background: black;
+	overflow: hidden;
+	
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+	display: table-cell;
+ 	/*margin: auto;*/
+ 	vertical-align: middle;
+ 	width: 30%; 
+	margin: 0 auto; 
+	max-width: 500px;
+	font-size: large;
+}
+
+	
+h2{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bolder;
+}	
+	
+	
+
+ h1{
+	color: white;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Fira Sans', sans-serif;
+}
+table thead{
+	background-color: black;
+	color: white;	
+
+	
+}
+
+table{
+	width: 15%;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing:20px;
+	padding-right: 50px; 
+	
+}	
+	table, td{
+	 padding:10px 5px;	
+
+	}
+
+
+.grid
+        {
+            display:grid;
+            grid-template-columns:3fr 2fr; 
+            grid-gap:3rem;
+            align-items: center;
+            /*padding-left: 30px; */
+           
+        }
+
+.text{
+padding-left: 70px;
+ padding-right: 40px; 
+
+}
+/*https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/#:~:text=You%20can%20add%20quotation%20marks,don't%20automatically%20add%20them.*/
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+.box{
+	height:300px;
+	width: 400px;
+	color: white;
+background-color: black;
+border-style: double;
+
+ /*text-align: center;*/
+/*position: middle;*/ 
+ padding-top:  70px ;
+}
+.cite{
+	font-style: initial;
+}
+.textCenter{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.white{
+	background-color: #DCDCDC;
+
+	
+}
+h2{
+	font-weight: bolder;
+	
+}
+.qute{
+	font-family: 'Slabo 27px', serif;
+	padding-left: 30px; 
+	padding-right: 10px;
+}
+
+.link1 a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.link1 a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.link1 a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.link1 a:active {
+  text-decoration: none;
+  color: black;
+}
+.title{
+	width: 50px;
+}
+footer{
+	padding-left: 50px;
+}
+@media all and (max-width:500px)
+{
+	img {
+		max-width:100%;
+	max-height: 150px;	
+
+	}
+	body h1 ,.box ,table , .container ,h2,p , footer{
+		font-size: 15px;
+		display:block;
+		
+	}
+	.grid  div  h4{
+		
+		 font-size: 15px;
+		 text-align: center;
+		 align-items: center;
+		margin:-50px;
+		
+
+		}
+	.box{
+		width: 200px;
+		height: 200px;
+		text-align: center;
+	}
+	.grid
+        {
+            display:block;
+		}
+		h2{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bolder;
+}
+
+} 
+
+@media all and (max-width:350px){
+
+	img {
+			max-width:100%;
+		 	max-height: 50px;
+		 	margin: 0;
+		 	/*padding: auto;	*/
+		 	
+
+		}
+		h2
+	 	{
+			
+			font-size: 10px;
+			display:block;
+		}
+	body h1 ,.box ,table , .container ,p ,footer
+		{
+			font-size: 10px;
+			display:block;
+		
+		}
+	.grid
+        {
+            display:block;
+		}
+		.box
+		{
+			width: 150px;
+			height: 150px;
+		}
+/*.qute
+		{
+			padding: all;
+		}*/
+	
+		h2{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bolder;
+}
+
+	 
+}
+
